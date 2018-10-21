@@ -5,6 +5,9 @@
 *.png
 *.jpg
 *.pyc
+*.weights
+*.a
+*.so
 old/
 mnist/
 data/
@@ -15,9 +18,9 @@ opencv/
 convnet/
 decaf/
 submission/
-cfg/
 darknet
 .fuse*
+darknet53.conv.74
 
 # OS Generated #
 .DS_Store*
