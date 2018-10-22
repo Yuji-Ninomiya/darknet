@@ -21,7 +21,7 @@ $ git clone https://github.com/pjreddie/darknet`
 
 ```	
 $ cd darknet/cfg/
-$ ~~.data, ~~_train.cfg, ~~_test.cfg
+$ vs087.data, vs087_train.cfg, vs087_test.cfg
 ```
 
 #### テストデータ
