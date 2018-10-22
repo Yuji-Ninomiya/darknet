@@ -43,7 +43,7 @@ $ git clone https://github.com/tzutalin/labelImg.git
 
 画像、.weights ファイル ---> `/data/robot/vs087`
 
-自作したデータセット     ---> `/ImageAnnotation/imagae`
+自作したデータセット     ---> `/ImageAnnotation/image`
 
 上記ファイルは NAS の `public/産ロボ会議/YOLO/` に保存
 
