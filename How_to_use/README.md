@@ -13,7 +13,6 @@ YOLO : https://pjreddie.com/darknet/yolo/
 
 ```
 $ cd your_workspace/
-
 $ git clone https://github.com/pjreddie/darknet`
 ```
 
@@ -35,9 +34,7 @@ $ cd darknet/data/test/vs087_real
 
 ```
 $ cd your_workspace/
-
 $ mkdir ImageAnnotation & cd ImageAnnotation/
-
 $ git clone https://github.com/tzutalin/labelImg.git
 ```
 
@@ -52,6 +49,5 @@ $ git clone https://github.com/tzutalin/labelImg.git
 
 ```
 $ cd your_workspace/
-
 $ git clone https://github.com/demulab/divide_files.git
 ```
