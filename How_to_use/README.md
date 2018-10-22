@@ -45,6 +45,8 @@ $ git clone https://github.com/tzutalin/labelImg.git
 
 自作したデータセット     ---> `/ImageAnnotation/imagae`
 
+上記ファイルは NAS の `public/産ロボ会議/YOLO/` に保存
+
 ***
 ### 3. 必要な実行ファイルのインストール
 
