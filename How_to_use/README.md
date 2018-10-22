@@ -11,23 +11,47 @@ YOLO : https://pjreddie.com/darknet/yolo/
 データセットの作成： http://demura.net/misc/14350.html
 
 ***
-#### 1. darknet
+### 1. darknet
 
 ```
-$ cd ~Your_workspace/
+$ cd your_workspace/
 
 $ git clone https://github.com/pjreddie/darknet`
 ```
-	/cfg/ ~~.data, ~~_train.cfg, ~~_test.cfg <---新規追加したやつ
-	/data/test/vs087_real <--- テストデータ
+
+####新規追加
+
+```	
+$ cd darknet/cfg/
+$ ~~.data, ~~_train.cfg, ~~_test.cfg
+```
+
+####テストデータ
+
+```
+$ cd darknet/data/test/vs087_real
+```
 
 ***
-YOLO_denso/ImageAnnotation/labelImg `git clone https://github.com/tzutalin/labelImg.git`
+### 2. Annotation
 
-	/data/robot/vs087 <---画像、.weight ファイル（git管理しない）
+```
+$ cd your_workspace/
 
-	/ImageAnnotation/imagae <---自作したデータセット
+$ mkdir ImageAnnotation & cd ImageAnnotation/
+
+$ git clone https://github.com/tzutalin/labelImg.git
+```
+
+画像、.weights ファイル ---> `/data/robot/vs087`
+
+自作したデータセット     ---> `/ImageAnnotation/imagae
 
 ***
-YOLO_denso/divide_files <- git clone https://github.com/demulab/divide_files.git　<---git 管理しない
+### 3. 必要な実行ファイルのインストール
 
+```
+$ cd your_workspace/
+
+$ git clone https://github.com/demulab/divide_files.git
+```
